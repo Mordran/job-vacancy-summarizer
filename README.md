@@ -47,9 +47,13 @@ While the high BERTScore indicates strong semantic similarity between the genera
 ## Repository Structure
 
 ├── scrape_jobs.py # Scrapes job listings and saves to CSV
+
 ├── preprocess_jobs.py # Cleans and filters job descriptions
+
 ├── summarize.py # Trains model and generates summaries
+
 ├── evaluate.py # Evaluates summaries using BERTScore and NLI
+
 └── README.md
 
 ## Requirements
