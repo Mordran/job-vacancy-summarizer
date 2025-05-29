@@ -4,7 +4,7 @@ This project focuses on summarizing job descriptions using a transformer-based l
 
 ## Dataset
 
-Job data was collected using the [`python-jobspy`](https://pypi.org/project/jobspy/](https://pypi.org/project/python-jobspy/) Python library, which allows structured scraping from job platforms. In this case, job postings were gathered for roles in:
+Job data was collected using the [`python-jobspy`](https://pypi.org/project/python-jobspy/) Python library, which allows structured scraping from job platforms. In this case, job postings were gathered for roles in:
 
 - Data Science  
 - Data Engineering  
