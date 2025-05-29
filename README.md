@@ -24,7 +24,7 @@ The raw job descriptions were cleaned by removing HTML, emails, URLs, marketing 
 
 ## Summarization
 
-We fine-tuned the `sshleifer/distilbart-cnn-12-6` model using the job descriptions as both input and pseudo-summary (self-supervised learning). After training, summaries were generated and stored in `job_descriptions_with_summaries.csv`.
+We fine-tuned the [`sshleifer/distilbart-cnn-12-6`](https://huggingface.co/sshleifer/distilbart-cnn-12-6) model using the job descriptions as both input and pseudo-summary (self-supervised learning). After training, summaries were generated and stored in `job_descriptions_with_summaries.csv`.
 
 ### Example
 
@@ -40,7 +40,7 @@ Two evaluation methods were used to assess summary quality:
 
 - **BERTScore F1**: 0.89  
 - **NLI Entailment Score**: 0.4093  
-  *(Model: `roberta-large-mnli`)*
+  *(Model: [`roberta-large-mnli`](https://huggingface.co/FacebookAI/roberta-large-mnli))*
 
 While the high BERTScore indicates strong semantic similarity between the generated summaries and the original descriptions, the relatively low NLI entailment score suggests that coherence and logical consistency may be lacking in some summaries.
 
